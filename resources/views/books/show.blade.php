@@ -16,6 +16,7 @@
       </div>
     </div>
   </div>
+  <x-star-rating />
 
   <div>
     <h2 class="mb-4 text-xl font-semibold">Reviews</h2>
