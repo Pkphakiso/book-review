@@ -1,4 +1,7 @@
-<div>
-    components here here we
-    <!-- Act only according to that maxim whereby you can, at the same time, will that it should become a universal law. - Immanuel Kant -->
-</div>
+@if ($rating)
+    @for ($i = 1; $i <= 5; $i++)
+     {{ $i <= round($rating) ? '★' : '☆' }}
+    @endfor
+@else
+    no rating yet
+@endif
